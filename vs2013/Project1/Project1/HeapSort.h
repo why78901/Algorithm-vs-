@@ -1,5 +1,8 @@
 #pragma once
 #include <iostream>
+#include<cstring>
+#include<algorithm>
+#include<cstdio>
 using namespace std;
 class HeapSort
 {
@@ -10,9 +13,11 @@ public:
 
 private:
 	int aLen;
-	void Sort(int a[], int len);
+	int ForCount;
+	int SwapCount;
 	void Pirnt(int a[],int len);
 	void Swap(int a[], int s, int m);
-	void Adjust(int a[], int s, int m);
+	void Sort(int a[], int len);
+	void Adjust(int a[], int len, int index);
 };
 

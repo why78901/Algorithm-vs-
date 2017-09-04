@@ -33,6 +33,15 @@
     <ClInclude Include="StringRotate.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="HeapSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForceSearch.cpp">
@@ -54,6 +63,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

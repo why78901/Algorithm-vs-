@@ -5,6 +5,7 @@
 #include "Manacher.h"
 #include "BruteForceSearch.h"
 #include "HeapSort.h"
+#include "QuickSort.h"
 
 Main::Main()
 {
@@ -40,5 +41,9 @@ void Main::Start()
 	//HeapSort
 	HeapSort *heapSort = new HeapSort();
 	heapSort->OnInit();
+
+	//QuickSort
+	QuickSort *quickSort = new QuickSort();
+	quickSort->OnInit();
 }
 
