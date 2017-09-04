@@ -4,6 +4,7 @@
 #include "StringPermutation.h"
 #include "Manacher.h"
 #include "BruteForceSearch.h"
+#include "HeapSort.h"
 
 Main::Main()
 {
@@ -28,12 +29,16 @@ void Main::Start()
 	/*Manacher *manacher = new Manacher();
 	manacher->Init();*/
 
-	//KMPMatch
-	KMPMatch *kmpMatch = new KMPMatch();
-	kmpMatch->Init();
+	////KMPMatch
+	//KMPMatch *kmpMatch = new KMPMatch();
+	//kmpMatch->Init();
 
 	//bruteForceSearch
 	/*BruteForceSearch * forceSearch = new BruteForceSearch();
 	forceSearch->Init();*/
+
+	//HeapSort
+	HeapSort *heapSort = new HeapSort();
+	heapSort->OnInit();
 }
 
