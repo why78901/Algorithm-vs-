@@ -1,7 +1,6 @@
 #include "HeapSort.h"
 
 HeapSort::HeapSort():
-	ForCount(0),
 	SwapCount(0)
 {
 }
@@ -44,7 +43,6 @@ void HeapSort::Adjust(int a[], int len, int index)
 		Swap(a, maxIdx, index);
 		Adjust(a, len, maxIdx);       // 递归调整其他不满足堆性质的部分
 	}
-	ForCount++;
 }
 
 void HeapSort::Swap(int a[], int s, int m)

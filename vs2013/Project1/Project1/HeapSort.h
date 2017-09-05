@@ -13,7 +13,6 @@ public:
 
 private:
 	int aLen;
-	int ForCount;
 	int SwapCount;
 	void Pirnt(int a[],int len);
 	void Swap(int a[], int s, int m);
