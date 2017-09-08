@@ -14,7 +14,14 @@ StringPermutation::~StringPermutation()
 void StringPermutation::Init()
 {
 	int a[] = { 1, 2, 3 };
-	Permutation(a, sizeof(a) / sizeof(int), 0);
+	int len = sizeof(a) / sizeof(int);
+	Permutation(a, len, 0);
+	cout << "\n"  << "nonRecursively";
+
+	while (GetNextPermutation(a,len))
+	{
+		Print(a, len);
+	}
 }
 
 void StringPermutation::Permutation(int a[], int size, int n)
@@ -33,6 +40,8 @@ void StringPermutation::Permutation(int a[], int size, int n)
 	}
 }
 
+
+
 void StringPermutation::Swap(int a[], int i, int j)
 {
 	int temp = a[i];
@@ -49,4 +58,40 @@ void StringPermutation::Print(int a[], int size)
 		cout << a[i];
 	}
 	cout << " ";
+}
+
+
+//nonRecursively
+bool StringPermutation::GetNextPermutation(int *a, int size)
+{
+	//Кѓев
+	int i = size - 2;
+	while ((i>=0) && (a[i] >= a[i+1]))
+	{
+		i--;
+	}
+	if (i < 0)
+		return false;
+
+	int j = size - 1;
+	while (a[j] <= a[i])
+		j--;
+
+	swap(a[j], a[i]);
+
+	Reverse(a + i + 1, a + size - 1);
+	return true;
+}
+
+void StringPermutation::Reverse(int *from, int *to)
+{
+	int t;
+	while (from < to)
+	{
+		t = *from;
+		*from = *to;
+		*to = t;
+		from++;
+		to--;
+	}
 }

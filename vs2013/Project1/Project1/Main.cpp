@@ -27,8 +27,8 @@ void Main::Start()
 	permutation->Init();*/
 
 	//manacher
-	/*Manacher *manacher = new Manacher();
-	manacher->Init();*/
+	Manacher *manacher = new Manacher();
+	manacher->Init();
 
 	////KMPMatch
 	//KMPMatch *kmpMatch = new KMPMatch();
@@ -39,11 +39,11 @@ void Main::Start()
 	forceSearch->Init();*/
 
 	//HeapSort
-	HeapSort *heapSort = new HeapSort();
-	heapSort->OnInit();
+	//HeapSort *heapSort = new HeapSort();
+	//heapSort->OnInit();
 
 	//QuickSort
-	QuickSort *quickSort = new QuickSort();
-	quickSort->OnInit();
+	/*QuickSort *quickSort = new QuickSort();
+	quickSort->OnInit();*/
 }
 
