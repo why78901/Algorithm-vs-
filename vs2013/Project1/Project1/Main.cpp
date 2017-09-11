@@ -6,6 +6,7 @@
 #include "BruteForceSearch.h"
 #include "HeapSort.h"
 #include "QuickSort.h"
+#include "HalfFind.h"
 
 Main::Main()
 {
@@ -18,6 +19,15 @@ Main::~Main()
 
 void Main::Start()
 {
+	//*Find 
+	HalfFind *halfFind = new HalfFind();
+	halfFind->OnInit();
+	//*/
+
+
+
+
+
 	//StringRotate
 	/*StringRotate *stringRotate = new StringRotate();
 	stringRotate->Init();*/
@@ -27,8 +37,8 @@ void Main::Start()
 	permutation->Init();*/
 
 	//manacher
-	Manacher *manacher = new Manacher();
-	manacher->Init();
+	/*Manacher *manacher = new Manacher();
+	manacher->Init();*/
 
 	////KMPMatch
 	//KMPMatch *kmpMatch = new KMPMatch();
@@ -46,4 +56,5 @@ void Main::Start()
 	/*QuickSort *quickSort = new QuickSort();
 	quickSort->OnInit();*/
 }
+
 

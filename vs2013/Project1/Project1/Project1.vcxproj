@@ -64,10 +64,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AbsoluteMode.h" />
     <ClInclude Include="BruteForceSearch.h" />
     <ClInclude Include="ConstManager.h" />
+    <ClInclude Include="FristMissNumber.h" />
+    <ClInclude Include="HalfFind.h" />
     <ClInclude Include="HeapSort.h" />
     <ClInclude Include="KMPMatch.h" />
+    <ClInclude Include="LocalMaximum.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="Manacher.h" />
     <ClInclude Include="QuickSort.h" />
@@ -75,16 +79,21 @@
     <ClInclude Include="StringRotate.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AbsoluteMode.cpp" />
     <ClCompile Include="BruteForceSearch.cpp" />
     <ClCompile Include="ConstManager.cpp" />
+    <ClCompile Include="FristMissNumber.cpp" />
+    <ClCompile Include="HalfFind.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="KMPMatch.cpp" />
+    <ClCompile Include="LocalMaximum.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Manacher.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="StringPermutation.cpp" />
     <ClCompile Include="StringRotate.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="源.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

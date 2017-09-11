@@ -42,6 +42,18 @@
     <ClInclude Include="ConstManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="HalfFind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsoluteMode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalMaximum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FristMissNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForceSearch.cpp">
@@ -72,6 +84,21 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ConstManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HalfFind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsoluteMode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalMaximum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FristMissNumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
