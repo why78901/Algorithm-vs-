@@ -7,6 +7,9 @@
 #include "HeapSort.h"
 #include "QuickSort.h"
 #include "HalfFind.h"
+#include "Huffman.h"
+#include "TraverseBinarytree.h"
+
 
 Main::Main()
 {
@@ -20,13 +23,17 @@ Main::~Main()
 void Main::Start()
 {
 	//*Find 
-	HalfFind *halfFind = new HalfFind();
-	halfFind->OnInit();
+	/*HalfFind *halfFind = new HalfFind();
+	halfFind->OnInit();*/
 	//*/
 
+	//huffman
+	/*Huffman *huffman = new Huffman();
+	huffman->OnInit();*/
 
-
-
+	//±éÀú¶þ²æÊ÷
+	TraverseBinarytree *tree = new TraverseBinarytree();
+	tree->OnInit();
 
 	//StringRotate
 	/*StringRotate *stringRotate = new StringRotate();

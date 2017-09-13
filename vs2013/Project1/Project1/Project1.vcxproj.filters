@@ -54,6 +54,12 @@
     <ClInclude Include="FristMissNumber.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Huffman.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TraverseBinarytree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForceSearch.cpp">
@@ -99,6 +105,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="FristMissNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Huffman.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TraverseBinarytree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
