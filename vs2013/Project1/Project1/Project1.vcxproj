@@ -65,6 +65,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AbsoluteMode.h" />
+    <ClInclude Include="AStar.h" />
     <ClInclude Include="BruteForceSearch.h" />
     <ClInclude Include="ConstManager.h" />
     <ClInclude Include="FristMissNumber.h" />
@@ -82,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbsoluteMode.cpp" />
+    <ClCompile Include="AStar.cpp" />
     <ClCompile Include="BruteForceSearch.cpp" />
     <ClCompile Include="ConstManager.cpp" />
     <ClCompile Include="FristMissNumber.cpp" />

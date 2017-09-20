@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 using namespace std;
+//¾ø¶ÔÖÚÊı
 class AbsoluteMode
 {
 public:
