@@ -9,7 +9,7 @@ class CPoint
 public:
 	CPoint();
 	~CPoint();
-	string cityName;
+	char cityName;
 	float distance;
 	static float Distance(CPoint point1, CPoint point2);
 

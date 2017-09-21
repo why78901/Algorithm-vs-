@@ -90,4 +90,25 @@ void AStar::AStarSearch(const vector<vector<float> >& graph, int start, int end,
 		}
 		type[j] = 2; //边点变成内点
 	}
+
+	//恢复路径
+	vector<int> path;
+	path.push_back(end);
+	while (pre[end] != -1)
+	{
+		end = pre[end];
+		path.push_back(end);
+	}
+	reverse(path.begin(), path.end());
+
+	//输出路径点
+	float m = 0;
+	for (k = 0; k < path.size(); k++)
+	{
+		cout <<  p[path[k]].cityName << '\n';
+		if (k != 0)
+			m += graph[path[k - 1]][path[k]];
+
+	}
+	cout << m << '\n';
 }
