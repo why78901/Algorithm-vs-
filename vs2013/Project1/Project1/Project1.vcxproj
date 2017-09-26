@@ -79,6 +79,7 @@
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="StringPermutation.h" />
     <ClInclude Include="StringRotate.h" />
+    <ClInclude Include="SurroundedRegions.h" />
     <ClInclude Include="TraverseBinarytree.h" />
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +98,7 @@
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="StringPermutation.cpp" />
     <ClCompile Include="StringRotate.cpp" />
+    <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="TraverseBinarytree.cpp" />
     <ClCompile Include="源.cpp" />
