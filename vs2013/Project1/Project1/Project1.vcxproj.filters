@@ -66,6 +66,12 @@
     <ClInclude Include="SurroundedRegions.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="WordLadder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Queen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForceSearch.cpp">
@@ -123,6 +129,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SurroundedRegions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WordLadder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

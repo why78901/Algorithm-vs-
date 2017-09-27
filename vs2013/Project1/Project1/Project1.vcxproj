@@ -76,11 +76,13 @@
     <ClInclude Include="LocalMaximum.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="Manacher.h" />
+    <ClInclude Include="Queen.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="StringPermutation.h" />
     <ClInclude Include="StringRotate.h" />
     <ClInclude Include="SurroundedRegions.h" />
     <ClInclude Include="TraverseBinarytree.h" />
+    <ClInclude Include="WordLadder.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbsoluteMode.cpp" />
@@ -95,12 +97,14 @@
     <ClCompile Include="LocalMaximum.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Manacher.cpp" />
+    <ClCompile Include="Queen.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="StringPermutation.cpp" />
     <ClCompile Include="StringRotate.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="TraverseBinarytree.cpp" />
+    <ClCompile Include="WordLadder.cpp" />
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
