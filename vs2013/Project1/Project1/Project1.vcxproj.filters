@@ -72,6 +72,9 @@
     <ClInclude Include="Queen.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForceSearch.cpp">
@@ -135,6 +138,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Queen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
