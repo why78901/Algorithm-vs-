@@ -1,4 +1,5 @@
 #pragma once
+//πÈ≤¢≈≈–Ú
 class MergeSort
 {
 public:

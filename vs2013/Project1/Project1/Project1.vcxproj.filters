@@ -75,6 +75,15 @@
     <ClInclude Include="MergeSort.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="InsertSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MinPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BruteForceSearch.cpp">
@@ -141,6 +150,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MergeSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Lis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinPath.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

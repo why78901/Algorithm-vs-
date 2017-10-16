@@ -52,14 +52,14 @@ void Main::Start()
 	//HeapSort *heapSort = new HeapSort();
 	//heapSort->OnInit();
 
-	/*QuickSort *quickSort = new QuickSort();
-	quickSort->OnInit();*/
+	QuickSort *quickSort = new QuickSort();
+	quickSort->OnInit();
 
 	/*WordLadder *wordLade = new WordLadder();
 	wordLade->OnInit();*/
 
-	CQueen *cQueen = new CQueen(8);
-	cQueen->OnInit();
+	/*CQueen *cQueen = new CQueen(8);
+	cQueen->OnInit();*/
 }
 
 

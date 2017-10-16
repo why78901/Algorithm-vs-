@@ -14,6 +14,7 @@ public:
 	void quickSort(int a[], int low, int high);
 	void Swap(int a[], int s, int m);
 	void Pirnt(int a[], int len);
+	void midOptimize(int a[], int low, int high);
 
 private:
 	int aLen;
